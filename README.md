@@ -1,4 +1,4 @@
-# 🌌 Google Antigravity IDE & CLI — Настольный клиент и шлюз прямого доступа (v1.0.35)
+# 🌌 Google Antigravity IDE & CLI — Настольный клиент и шлюз прямого доступа (v1.0.36)
 
 [![GitHub releases](https://img.shields.io/github/v/release/loysger/AGClientPub?style=flat-square&label=Версия)](https://github.com/loysger/AGClientPub/releases)
 [![Downloads](https://img.shields.io/github/downloads/loysger/AGClientPub/total?style=flat-square&label=Скачиваний)](https://github.com/loysger/AGClientPub/releases)
@@ -17,9 +17,10 @@
 
 * **🚀 Прямой доступ без личного Google-аккаунта:** Больше не нужно регистрировать иностранные почты, искать зарубежные карты и бояться внезапного бана или слёта платной подписки.
 * **⚡ Работа без сторонних VPN:** Клиент работает как локальный точечный шлюз (`127.0.0.1:8047`) только для трафика IDE. Ваш браузер, Telegram, стриминг и игры летают на полной скорости домашнего интернета.
+* **🔄 Одновременный запуск IDE, 2.0 и CLI:** Возможность параллельно запускать и работать в Antigravity IDE, Antigravity 2.0 и терминальном CLI через единый общий шлюз без конфликтов портов.
 * **🛠 Решение критических ошибок агента:** Устраняет ошибки `agent terminated due to error` и `agent execution terminated` за счет активного удержания WebSocket-сессий без сброса контекста.
 * **🧠 Полный спектр флагманских моделей:** Доступ к Claude 4.6 (Sonnet / Opus) и Gemini 3.1 Pro с рекордным контекстом до **2 000 000 токенов**.
-* **💻 Кроссплатформенность:** Официальные сборки для **Windows (exe/msi)**, **macOS (dmg для Apple Silicon)** и **Linux (AppImage/deb/rpm/WSL)**.
+* **💻 Кроссплатформенность:** Официальные сборки для **Windows (exe/msi)**, **macOS (dmg для Apple Silicon & Intel)** и **Linux (AppImage/deb/rpm/WSL)**.
 * **🧩 Поддержка MCP (Model Context Protocol):** Интеграция сторонних инструментов, баз данных и внешних навыков.
 
 ---
@@ -33,19 +34,19 @@
 
 ---
 
-## 📥 Скачать Antigravity Client (v1.0.35)
+## 📥 Скачать Antigravity Client (v1.0.36)
 
 Выберите готовый установщик для вашей операционной системы:
 
 | Операционная система | Тип пакета | Ссылка на скачивание |
 |---|---|:---:|
-| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_x64-setup.exe) |
-| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_x64_en-US.msi) |
-| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_aarch64.dmg) |
-| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_x64.dmg) |
-| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_amd64.deb) |
-| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_amd64.AppImage) |
-| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client-1.0.35-1.x86_64.rpm) |
+| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/AGClientPub/releases/download/v1.0.36/Antigravity.Client_1.0.36_x64-setup.exe) |
+| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/AGClientPub/releases/download/v1.0.36/Antigravity.Client_1.0.36_x64_en-US.msi) |
+| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/AGClientPub/releases/download/v1.0.36/Antigravity.Client_1.0.36_aarch64.dmg) |
+| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/AGClientPub/releases/download/v1.0.36/Antigravity.Client_1.0.36_x64.dmg) |
+| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/AGClientPub/releases/download/v1.0.36/Antigravity.Client_1.0.36_amd64.deb) |
+| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/AGClientPub/releases/download/v1.0.36/Antigravity.Client_1.0.36_amd64.AppImage) |
+| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/AGClientPub/releases/download/v1.0.36/Antigravity.Client-1.0.36-1.x86_64.rpm) |
 
 📦 Все сборки доступны на [**Странице релизов (Releases)**](https://github.com/loysger/AGClientPub/releases).
 
