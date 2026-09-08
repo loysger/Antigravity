@@ -42,6 +42,7 @@
 | 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_x64-setup.exe) |
 | 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_x64_en-US.msi) |
 | 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_aarch64.dmg) |
+| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_x64.dmg) |
 | 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_amd64.deb) |
 | 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client_1.0.35_amd64.AppImage) |
 | 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/AGClientPub/releases/download/v1.0.35/Antigravity.Client-1.0.35-1.x86_64.rpm) |
