@@ -110,6 +110,9 @@ export HTTPS_PROXY="http://127.0.0.1:8047"
 ### ❓ Как решить ошибку «Your current account is not eligible for Antigravity, because it is not currently available in your location»?
 Google проверяет постоянную страну профиля вашего Google-аккаунта (`ineligibleTiers`) и блокирует авторизацию для пользователей из РФ и СНГ даже под VPN. Подробная инструкция по обходу блокировки без смены страны профиля приведена в [**Issue #3**](https://github.com/loysger/AGClientPub/issues/3).
 
+### ❓ Как обойти ошибку привязки страны (Google Country Association Form) и платежного профиля?
+Если в настройках аккаунта Google страной указана Россия, сервис блокирует вход даже под качественным VPN. Попытка сменить страну через официальную форму часто отклоняется из-за платежного профиля или истории сессий. Подробное руководство, как запустить Antigravity под своим аккаунтом без риска бана, читайте в [**Issue #4**](https://github.com/loysger/AGClientPub/issues/4).
+
 ---
 
 ## 🤝 Обратная связь и техническая поддержка
