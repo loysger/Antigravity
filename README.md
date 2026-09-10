@@ -5,7 +5,7 @@
 [![Platforms](https://img.shields.io/badge/Платформы-Windows%20|%20macOS%20|%20Linux-blue?style=flat-square)](https://github.com/loysger/AGClientPub/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-Поддержка-blue?style=flat-square&logo=telegram)](https://t.me/Ultimateadvansed)
 
-**Google Antigravity** — передовая среда разработки и автономный ИИ-агент нового поколения от Google. Платформа объединяет возможности **Antigravity IDE**, оркестратора **Antigravity 2.0** и консольного терминального агента **Antigravity CLI (agy)**, используя флагманские модели **Claude Sonnet 4.6**, **Claude Opus 4.6**, **Gemini 3.8 Flash** и **Gemini 3.1 Pro** для автономного написания, анализа и рефакторинга кода.
+**Google Antigravity** — передовая среда разработки и автономный ИИ-агент нового поколения от Google. Платформа объединяет возможности **Antigravity IDE**, оркестратора **Antigravity 2.0** и консольного терминального агента **Antigravity CLI (agy)**, используя флагманские модели **Gemini 3.8 Flash High**, **Gemini 3.1 Pro**, **Claude Sonnet 4.6** и **Claude Opus 4.6** для автономного написания, анализа и рефакторинга кода.
 
 Из-за региональных ограничений прямое обращение к Google API из России и стран СНГ блокируется (возникают ошибки `400 Bad Request: User location is not supported`, `Your current account is not eligible for Antigravity, because it is not currently available in your location` или сбои выполнения агента `agent terminated due to error`).
 
@@ -120,5 +120,5 @@ Google проверяет постоянную страну профиля ва�
 
 ## 🤝 Обратная связь и техническая поддержка
 
-* 📩 **Telegram (получение и продление ключей, тарифы PRO / X3 / X5 / ULTRA безлимит)**: **[@Ultimateadvansed](https://t.me/Ultimateadvansed)**
+* 📩 **Telegram (напишите «ТЕСТ» для мгновенного ключа на 24 часа, тарифы PRO / X3 / X5 / ULTRA)**: **[@Ultimateadvansed](https://t.me/Ultimateadvansed)**
 * 🐛 **Сообщить о проблеме**: [GitHub Issues](https://github.com/loysger/AGClientPub/issues)
