@@ -1,4 +1,4 @@
-# 🌌 Google Antigravity IDE & CLI — Настольный клиент и шлюз прямого доступа (v1.0.38)
+# 🌌 Google Antigravity в России: Скачать клиент для IDE, 2.0 и CLI (Запуск БЕЗ VPN на Windows, macOS, Linux)
 
 [![GitHub releases](https://img.shields.io/github/v/release/loysger/AGClientPub?style=flat-square&label=Версия)](https://github.com/loysger/AGClientPub/releases)
 [![Downloads](https://img.shields.io/github/downloads/loysger/AGClientPub/total?style=flat-square&label=Скачиваний)](https://github.com/loysger/AGClientPub/releases)
