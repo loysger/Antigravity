@@ -1,8 +1,8 @@
 # 🌌 Google Antigravity в России: Скачать клиент для IDE, 2.0 и CLI (Запуск БЕЗ VPN на Windows, macOS, Linux)
 
-[![GitHub releases](https://img.shields.io/github/v/release/loysger/AGClientPub?style=flat-square&label=Версия)](https://github.com/loysger/AGClientPub/releases)
-[![Downloads](https://img.shields.io/github/downloads/loysger/AGClientPub/total?style=flat-square&label=Скачиваний)](https://github.com/loysger/AGClientPub/releases)
-[![Platforms](https://img.shields.io/badge/Платформы-Windows%20|%20macOS%20|%20Linux-blue?style=flat-square)](https://github.com/loysger/AGClientPub/releases)
+[![GitHub releases](https://img.shields.io/github/v/release/loysger/Antigravity?style=flat-square&label=Версия)](https://github.com/loysger/Antigravity/releases)
+[![Downloads](https://img.shields.io/github/downloads/loysger/Antigravity/total?style=flat-square&label=Скачиваний)](https://github.com/loysger/Antigravity/releases)
+[![Platforms](https://img.shields.io/badge/Платформы-Windows%20|%20macOS%20|%20Linux-blue?style=flat-square)](https://github.com/loysger/Antigravity/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-Поддержка-blue?style=flat-square&logo=telegram)](https://t.me/Ultimateadvansed)
 
 **Google Antigravity** — передовая среда разработки и автономный ИИ-агент нового поколения от Google. Платформа объединяет возможности **Antigravity IDE**, оркестратора **Antigravity 2.0** и консольного терминального агента **Antigravity CLI (agy)**, используя флагманские модели **Gemini 3.8 Flash High**, **Gemini 3.1 Pro**, **Claude Sonnet 4.6** и **Claude Opus 4.6** для автономного написания, анализа и рефакторинга кода.
@@ -40,15 +40,15 @@
 
 | Операционная система | Тип пакета | Ссылка на скачивание |
 |---|---|:---:|
-| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/AGClientPub/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64-setup.exe) |
-| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/AGClientPub/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64_en-US.msi) |
-| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/AGClientPub/releases/download/v1.0.38/Antigravity.Client_1.0.38_aarch64.dmg) |
-| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/AGClientPub/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64.dmg) |
-| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/AGClientPub/releases/download/v1.0.38/Antigravity.Client_1.0.38_amd64.deb) |
-| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/AGClientPub/releases/download/v1.0.38/Antigravity.Client_1.0.38_amd64.AppImage) |
-| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/AGClientPub/releases/download/v1.0.38/Antigravity.Client-1.0.38-1.x86_64.rpm) |
+| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64-setup.exe) |
+| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64_en-US.msi) |
+| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_aarch64.dmg) |
+| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64.dmg) |
+| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_amd64.deb) |
+| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_amd64.AppImage) |
+| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client-1.0.38-1.x86_64.rpm) |
 
-📦 Все сборки доступны на [**Странице релизов (Releases)**](https://github.com/loysger/AGClientPub/releases).
+📦 Все сборки доступны на [**Странице релизов (Releases)**](https://github.com/loysger/Antigravity/releases).
 
 ---
 
@@ -102,23 +102,23 @@ export HTTPS_PROXY="http://127.0.0.1:8047"
 Прямой доступ к API Google Cloud Code заблокирован для российских IP-адресов. Antigravity Client перенаправляет только запросы IDE через выделенный локальный прокси (`127.0.0.1:8047`), не снижая общую скорость интернета на вашем компьютере.
 
 ### ❓ Как исправить ошибку «agent terminated due to error» в Antigravity IDE & 2.0?
-Эта ошибка возникает из-за микроразрывов соединения при использовании обычных VPN или при исчерпании лимитов бесплатного Google-аккаунта. Подробный пошаговый разбор с логами смотрите в [**Issue #1**](https://github.com/loysger/AGClientPub/issues/1).
+Эта ошибка возникает из-за микроразрывов соединения при использовании обычных VPN или при исчерпании лимитов бесплатного Google-аккаунта. Подробный пошаговый разбор с логами смотрите в [**Issue #1**](https://github.com/loysger/Antigravity/issues/1).
 
 ### ❓ Что делать при ошибке «agent execution terminated due to error» в CLI / терминале?
-Длинная сигнатура ошибки со словом `execution` возникает при падении фонового раннера языкового сервера или разрыве стрима `streamGenerateContent`. Подробное решение разобрано в [**Issue #2**](https://github.com/loysger/AGClientPub/issues/2).
+Длинная сигнатура ошибки со словом `execution` возникает при падении фонового раннера языкового сервера или разрыве стрима `streamGenerateContent`. Подробное решение разобрано в [**Issue #2**](https://github.com/loysger/Antigravity/issues/2).
 
 ### ❓ Как решить ошибку «Your current account is not eligible for Antigravity, because it is not currently available in your location»?
-Google проверяет постоянную страну профиля вашего Google-аккаунта (`ineligibleTiers`) и блокирует авторизацию для пользователей из РФ и СНГ даже под VPN. Подробная инструкция по обходу блокировки без смены страны профиля приведена в [**Issue #3**](https://github.com/loysger/AGClientPub/issues/3).
+Google проверяет постоянную страну профиля вашего Google-аккаунта (`ineligibleTiers`) и блокирует авторизацию для пользователей из РФ и СНГ даже под VPN. Подробная инструкция по обходу блокировки без смены страны профиля приведена в [**Issue #3**](https://github.com/loysger/Antigravity/issues/3).
 
 ### ❓ Как обойти ошибку привязки страны (Google Country Association Form) и платежного профиля?
-Если в настройках аккаунта Google страной указана Россия, сервис блокирует вход даже под качественным VPN. Попытка сменить страну через официальную форму часто отклоняется из-за платежного профиля или истории сессий. Подробное руководство, как запустить Antigravity под своим аккаунтом без риска бана, читайте в [**Issue #4**](https://github.com/loysger/AGClientPub/issues/4).
+Если в настройках аккаунта Google страной указана Россия, сервис блокирует вход даже под качественным VPN. Попытка сменить страну через официальную форму часто отклоняется из-за платежного профиля или истории сессий. Подробное руководство, как запустить Antigravity под своим аккаунтом без риска бана, читайте в [**Issue #4**](https://github.com/loysger/Antigravity/issues/4).
 
 ### ❓ Как запустить Google Antigravity в России без VPN на полной скорости интернета?
-Классический системный VPN замедляет соединение и блокирует российские сайты. Antigravity Client перенаправляет только служебный трафик IDE на локальном порту (`127.0.0.1:8047`), сохраняя гигабитную скорость для остальной системы. Пошаговая инструкция приведена в [**Issue #5**](https://github.com/loysger/AGClientPub/issues/5).
+Классический системный VPN замедляет соединение и блокирует российские сайты. Antigravity Client перенаправляет только служебный трафик IDE на локальном порту (`127.0.0.1:8047`), сохраняя гигабитную скорость для остальной системы. Пошаговая инструкция приведена в [**Issue #5**](https://github.com/loysger/Antigravity/issues/5).
 
 ---
 
 ## 🤝 Обратная связь и техническая поддержка
 
 * 📩 **Telegram (напишите «ТЕСТ» для мгновенного ключа на 24 часа, тарифы PRO / X3 / X5 / ULTRA)**: **[@Ultimateadvansed](https://t.me/Ultimateadvansed)**
-* 🐛 **Сообщить о проблеме**: [GitHub Issues](https://github.com/loysger/AGClientPub/issues)
+* 🐛 **Сообщить о проблеме**: [GitHub Issues](https://github.com/loysger/Antigravity/issues)
