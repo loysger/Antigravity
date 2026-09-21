@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and build outputs
+node_modules
+dist
+dist-ssr
+*.local
+src-tauri/target
+target/
+
+# Environment files
+.env
+.env*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+
+# Portable Node environment
+.node-env/
+
+# Binaries & installers
+*.exe
+*.msi
+*.dmg
+*.deb
+*.AppImage
+*.rpm
+*.zip

@@ -1,0 +1,109 @@
+name: Release — Build Installers
+
+on:
+  push:
+    tags:
+      - 'v*'          # Trigger on version tags like v0.1.0, v1.0.0, etc.
+  workflow_dispatch:   # Allow manual trigger from GitHub UI
+    inputs:
+      tag:
+        description: 'Tag to release (e.g. v1.0.35)'
+        required: false
+        default: 'v1.0.35'
+
+permissions:
+  contents: write      # Needed to create GitHub Releases
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # ── Windows ──────────────────────────────────────
+          - platform: windows-latest
+            target: x86_64-pc-windows-msvc
+            label: Windows-x64
+
+          # ── macOS Intel ──────────────────────────────────
+          - platform: macos-latest
+            target: x86_64-apple-darwin
+            label: macOS-Intel
+
+          # ── macOS Apple Silicon ───────────────────────────
+          - platform: macos-latest
+            target: aarch64-apple-darwin
+            label: macOS-ARM64
+
+          # ── Linux ────────────────────────────────────────
+          - platform: ubuntu-22.04
+            target: x86_64-unknown-linux-gnu
+            label: Linux-x64
+
+    runs-on: ${{ matrix.platform }}
+    name: Build — ${{ matrix.label }}
+
+    steps:
+      # ── Checkout ────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── Node.js ─────────────────────────────────────────
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      # ── Rust toolchain ──────────────────────────────────
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+
+      - name: Rust cache
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+
+      # ── Linux system dependencies ───────────────────────
+      - name: Install Linux dependencies
+        if: matrix.platform == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            libappindicator3-dev \
+            librsvg2-dev \
+            patchelf \
+            libgtk-3-dev \
+            libsoup-3.0-dev \
+            javascriptcoregtk-4.1 \
+            libglib2.0-dev
+
+      # ── Install frontend deps ───────────────────────────
+      - name: Install npm dependencies
+        run: npm ci
+
+      # ── Build Tauri app ─────────────────────────────────
+      - name: Build Tauri application
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_RELEASE_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+        with:
+          tagName: ${{ github.event.inputs.tag || github.ref_name }}
+          releaseName: 'Antigravity Client ${{ github.event.inputs.tag || github.ref_name }}'
+          releaseBody: |
+            Cross-platform installers for Antigravity Client ${{ github.event.inputs.tag || github.ref_name }}.
+
+            **Downloads:**
+            - 🪟 **Windows**: `.msi` or `.exe` installer
+            - 🍎 **macOS**: `.dmg` disk image
+            - 🐧 **Linux**: `.deb` or `.AppImage`
+          owner: loysger
+          repo: AGClientPub
+          releaseDraft: false
+          prerelease: false
+          releaseCommitish: master
+          args: --target ${{ matrix.target }}
