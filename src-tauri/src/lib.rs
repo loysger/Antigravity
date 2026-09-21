@@ -3,9 +3,6 @@ pub mod local_proxy;
 pub mod dns;
 pub mod tunnel;
 pub mod process_utils;
-pub mod utils {
-    pub mod protobuf;
-}
 
 use std::sync::Mutex;
 use tokio::sync::watch;

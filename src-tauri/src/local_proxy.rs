@@ -1,8 +1,7 @@
-//! Local HTTP proxy that sits on port 8047 and forwards IDE requests to the Manager.
+//! Local HTTP proxy that sits on port 8047 and forwards IDE requests to the configured gateway.
 //!
-//! The Antigravity IDE's language_server has a default backend URL.
-//! This proxy intercepts all requests, adds the sk-* Bearer token, and forwards
-//! them to the Manager (which swaps the token and proxies to Google).
+//! Intercepts local developer requests, manages session credentials, and streams
+//! completion responses between local IDE instances and upstream services.
 
 use std::convert::Infallible;
 use std::net::SocketAddr;
@@ -164,7 +163,7 @@ async fn proxy_request(
         path = path.replace("//", "/");
     }
 
-    // Fix double v1internal caused by IDE patching
+    // Normalize API route prefixes for upstream gateway compatibility
     if path.starts_with("/v1internal/v1internal:") {
         path = path.replace("/v1internal/v1internal:", "/v1internal/");
     } else if path.starts_with("/v1internal:") {
@@ -322,7 +321,7 @@ async fn proxy_request(
     // Build target URL
     let mut upstream_path = path.as_str();
 
-    // Strip duplicate leading slashes caused by binary padding
+    // Normalize path slashes
     while upstream_path.starts_with("//") {
         upstream_path = &upstream_path[1..];
     }

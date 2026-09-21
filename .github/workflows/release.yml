@@ -9,7 +9,7 @@ on:
       tag:
         description: 'Tag to release (e.g. v1.0.35)'
         required: false
-        default: 'v1.0.35'
+        default: 'v1.0.38'
 
 permissions:
   contents: write      # Needed to create GitHub Releases
@@ -102,7 +102,7 @@ jobs:
             - 🍎 **macOS**: `.dmg` disk image
             - 🐧 **Linux**: `.deb` or `.AppImage`
           owner: loysger
-          repo: AGClientPub
+          repo: Antigravity
           releaseDraft: false
           prerelease: false
           releaseCommitish: master
