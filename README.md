@@ -34,19 +34,19 @@
 
 ---
 
-## 📥 Скачать Antigravity Client (v1.0.38)
+## 📥 Скачать Antigravity Client (v1.0.39)
 
 Выберите готовый установщик для вашей операционной системы:
 
 | Операционная система | Тип пакета | Ссылка на скачивание |
 |---|---|:---:|
-| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64-setup.exe) |
-| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64_en-US.msi) |
-| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_aarch64.dmg) |
-| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_x64.dmg) |
-| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_amd64.deb) |
-| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client_1.0.38_amd64.AppImage) |
-| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/Antigravity/releases/download/v1.0.38/Antigravity.Client-1.0.38-1.x86_64.rpm) |
+| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.39/Antigravity.Client_1.0.39_x64-setup.exe) |
+| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/Antigravity/releases/download/v1.0.39/Antigravity.Client_1.0.39_x64_en-US.msi) |
+| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/Antigravity/releases/download/v1.0.39/Antigravity.Client_1.0.39_aarch64.dmg) |
+| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/Antigravity/releases/download/v1.0.39/Antigravity.Client_1.0.39_x64.dmg) |
+| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/Antigravity/releases/download/v1.0.39/Antigravity.Client_1.0.39_amd64.deb) |
+| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/Antigravity/releases/download/v1.0.39/Antigravity.Client_1.0.39_amd64.AppImage) |
+| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/Antigravity/releases/download/v1.0.39/Antigravity.Client-1.0.39-1.x86_64.rpm) |
 
 📦 Все сборки доступны на [**Странице релизов (Releases)**](https://github.com/loysger/Antigravity/releases).
 
@@ -133,5 +133,6 @@ Google проверяет постоянную страну профиля ва�
 
 ## 🤝 Обратная связь и техническая поддержка
 
-* 📩 **Telegram (напишите «ТЕСТ» для мгновенного ключа на 24 часа, тарифы PRO / X3 / X5 / ULTRA)**: **[@Ultimateadvansed](https://t.me/Ultimateadvansed)**
+* 🤖 **Telegram-бот (получить тестовый ключ, тарифы PRO / X3 / X5 / ULTRA)**: **[@AntigravityVipbot](https://t.me/AntigravityVipbot)**
+* 📩 **Поддержка в Telegram**: **[@Ultimateadvansed](https://t.me/Ultimateadvansed)**
 * 🐛 **Сообщить о проблеме**: [GitHub Issues](https://github.com/loysger/Antigravity/issues)

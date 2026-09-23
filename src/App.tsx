@@ -928,7 +928,7 @@ export default function App() {
           
           <div className="mt-6 flex items-center justify-center space-x-8">
             <a 
-              href="https://t.me/Ultimateadvansed" 
+              href="https://t.me/AntigravityVipbot" 
               target="_blank" 
               rel="noreferrer" 
               className="inline-flex items-center space-x-2 text-gray-500 hover:text-[#2AABEE] text-xs transition-colors"
