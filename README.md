@@ -5,7 +5,7 @@
 [![Platforms](https://img.shields.io/badge/Платформы-Windows%20|%20macOS%20|%20Linux-blue?style=flat-square)](https://github.com/loysger/Antigravity/releases)
 [![Telegram](https://img.shields.io/badge/Telegram-Поддержка-blue?style=flat-square&logo=telegram)](https://t.me/Ultimateadvansed)
 
-**Google Antigravity** — передовая среда разработки и автономный ИИ-агент нового поколения от Google. Платформа объединяет возможности **Antigravity IDE**, оркестратора **Antigravity 2.0** и консольного терминального агента **Antigravity CLI (agy)**, используя флагманские модели **Gemini 3.8 Flash High**, **Gemini 3.1 Pro**, **Claude Sonnet 4.6** и **Claude Opus 4.6** для автономного написания, анализа и рефакторинга кода.
+**Google Antigravity** — передовая среда разработки и автономный ИИ-агент нового поколения от Google. Платформа объединяет возможности **Antigravity IDE**, оркестратора **Antigravity 2.0** и консольного терминального агента **Antigravity CLI (agy)**, используя флагманские модели **Claude Sonnet 5.5**, **Claude Opus 5.5**, **Claude Sonnet 4.6**, **Gemini 3.8 Flash High** и **Gemini 3.1 Pro** для автономного написания, анализа и рефакторинга кода.
 
 Из-за региональных ограничений прямое обращение к Google API из России и стран СНГ блокируется (возникают ошибки `400 Bad Request: User location is not supported`, `Your current account is not eligible for Antigravity, because it is not currently available in your location` или сбои выполнения агента `agent terminated due to error`).
 
@@ -34,19 +34,19 @@
 
 ---
 
-## 📥 Скачать Antigravity Client (v1.0.40)
+## 📥 Скачать Antigravity Client (v1.0.42)
 
 Выберите готовый установщик для вашей операционной системы:
 
 | Операционная система | Тип пакета | Ссылка на скачивание |
 |---|---|:---:|
-| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.40/Antigravity.Client_1.0.40_x64-setup.exe) |
-| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/Antigravity/releases/download/v1.0.40/Antigravity.Client_1.0.40_x64_en-US.msi) |
-| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/Antigravity/releases/download/v1.0.40/Antigravity.Client_1.0.40_aarch64.dmg) |
-| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/Antigravity/releases/download/v1.0.40/Antigravity.Client_1.0.40_x64.dmg) |
-| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/Antigravity/releases/download/v1.0.40/Antigravity.Client_1.0.40_amd64.deb) |
-| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/Antigravity/releases/download/v1.0.40/Antigravity.Client_1.0.40_amd64.AppImage) |
-| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/Antigravity/releases/download/v1.0.40/Antigravity.Client-1.0.40-1.x86_64.rpm) |
+| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.42/Antigravity.Client_1.0.42_x64-setup.exe) |
+| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/Antigravity/releases/download/v1.0.42/Antigravity.Client_1.0.42_x64_en-US.msi) |
+| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/Antigravity/releases/download/v1.0.42/Antigravity.Client_1.0.42_aarch64.dmg) |
+| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/Antigravity/releases/download/v1.0.42/Antigravity.Client_1.0.42_x64.dmg) |
+| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/Antigravity/releases/download/v1.0.42/Antigravity.Client_1.0.42_amd64.deb) |
+| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/Antigravity/releases/download/v1.0.42/Antigravity.Client_1.0.42_amd64.AppImage) |
+| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/Antigravity/releases/download/v1.0.42/Antigravity.Client-1.0.42-1.x86_64.rpm) |
 
 📦 Все сборки доступны на [**Странице релизов (Releases)**](https://github.com/loysger/Antigravity/releases).
 
@@ -83,8 +83,10 @@
 
 | Модель | Назначение |
 |---|---|
-| **Claude Opus 4.6 & Thinking** | Сложная архитектура, комплексные расчеты, глубокий рефакторинг |
-| **Claude Sonnet 4.6 & Thinking** | Лучший автономный агент для написания и отладки кода |
+| **Claude Opus 5.5 & Thinking** | Архитектура нового поколения, сложнейшие задачи, глубокий анализ |
+| **Claude Sonnet 5.5 & Thinking** | Флагманский автономный агент, сверхвысокая точность и генерация |
+| **Claude Opus 4.6 & Thinking** | Комплексные расчеты, глубокий рефакторинг |
+| **Claude Sonnet 4.6 & Thinking** | Автономное написание и отладка кода |
 | **Gemini 3.1 Pro** | Контекстное окно до **2 000 000 токенов** (весь репозиторий целиком) |
 | **Gemini 3.8 Flash (High / Thinking)** | Сверхбыстрый отклик, автокомплит и мгновенный поиск багов |
 | **GPT-OSS 120B** | Открытая флагманская модель для типовых задач |
