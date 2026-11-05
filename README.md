@@ -34,30 +34,30 @@
 
 ---
 
-## 📥 Скачать Antigravity Client (v1.0.64)
+## 📥 Скачать Antigravity Client (v1.0.65)
 
 ### 🖥️ Antigravity Desktop (GUI Приложение)
 Выберите готовый установщик для вашей операционной системы:
 
 | Операционная система | Тип пакета | Ссылка на скачивание |
 |---|---|:---:|
-| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/Antigravity.Client_1.0.64_x64-setup.exe) |
-| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/Antigravity.Client_1.0.64_x64_en-US.msi) |
-| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/Antigravity.Client_1.0.64_aarch64.dmg) |
-| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/Antigravity.Client_1.0.64_x64.dmg) |
-| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/Antigravity.Client_1.0.64_amd64.deb) |
-| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/Antigravity.Client_1.0.64_amd64.AppImage) |
-| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/Antigravity.Client-1.0.64-1.x86_64.rpm) |
+| 🪟 **Windows (10/11 x64)** | Setup EXE (быстрая установка) | [**Скачать .exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/Antigravity.Client_1.0.65_x64-setup.exe) |
+| 🪟 **Windows (10/11 x64)** | MSI Installer (системный пакет) | [**Скачать .msi**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/Antigravity.Client_1.0.65_x64_en-US.msi) |
+| 🍎 **macOS (Apple Silicon M1/M2/M3/M4)** | DMG образ | [**Скачать .dmg (ARM64)**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/Antigravity.Client_1.0.65_aarch64.dmg) |
+| 🍏 **macOS (Intel x86_64)** | DMG образ | [**Скачать .dmg (Intel)**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/Antigravity.Client_1.0.65_x64.dmg) |
+| 🐧 **Linux (Ubuntu / Debian x64)** | DEB пакет | [**Скачать .deb**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/Antigravity.Client_1.0.65_amd64.deb) |
+| 🐧 **Linux (любые дистрибутивы)** | Портативный AppImage | [**Скачать .AppImage**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/Antigravity.Client_1.0.65_amd64.AppImage) |
+| 🐧 **Linux (Fedora / RHEL / CentOS)** | RPM пакет | [**Скачать .rpm**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/Antigravity.Client-1.0.65-1.x86_64.rpm) |
 
 ### ⚡ Antigravity CLI (Терминальный агент для SSH, серверов и Docker)
 Сверхлегкий headless-бинарник (~8.5 МБ) для работы в терминале:
 
 | Платформа | Архитектура | Бинарник |
 |---|---|:---:|
-| 🪟 **Windows** | x86_64 | [**antigravity-windows-x64.exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/antigravity-windows-x64.exe) |
-| 🍎 **macOS** | Apple Silicon (ARM64) | [**antigravity-macos-arm64**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/antigravity-macos-arm64) |
-| 🍏 **macOS** | Intel (x86_64) | [**antigravity-macos-x64**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/antigravity-macos-x64) |
-| 🐧 **Linux / WSL** | x86_64 | [**antigravity-linux-x64**](https://github.com/loysger/Antigravity/releases/download/v1.0.64/antigravity-linux-x64) |
+| 🪟 **Windows** | x86_64 | [**antigravity-windows-x64.exe**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/antigravity-windows-x64.exe) |
+| 🍎 **macOS** | Apple Silicon (ARM64) | [**antigravity-macos-arm64**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/antigravity-macos-arm64) |
+| 🍏 **macOS** | Intel (x86_64) | [**antigravity-macos-x64**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/antigravity-macos-x64) |
+| 🐧 **Linux / WSL** | x86_64 | [**antigravity-linux-x64**](https://github.com/loysger/Antigravity/releases/download/v1.0.65/antigravity-linux-x64) |
 
 #### Быстрая установка CLI одной командой:
 - **Linux / macOS / WSL:**
