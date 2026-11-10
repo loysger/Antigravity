@@ -114,24 +114,6 @@
 
 ---
 
-## 🔌 Интеграция с Claude Code, Cursor, Windsurf и CLI
-
-Локальный шлюз клиента (`127.0.0.1:8047`) совместим с любыми внешними AI-утилитами:
-
-**Windows (PowerShell):**
-```powershell
-$env:HTTP_PROXY="http://127.0.0.1:8047"
-$env:HTTPS_PROXY="http://127.0.0.1:8047"
-```
-
-**macOS / Linux (Bash / Zsh):**
-```bash
-export HTTP_PROXY="http://127.0.0.1:8047"
-export HTTPS_PROXY="http://127.0.0.1:8047"
-```
-
----
-
 ## ❓ Часто задаваемые вопросы (FAQ & База знаний)
 
 ### ❓ Что делать, если Google Antigravity не работает в России?
